@@ -55,17 +55,6 @@
 - **PDF Processing**: PyPDF (텍스트 추출 및 정규화)
 - **Dependencies**: uvicorn, requests, python-dotenv
 
-## 참고사항 및 주요 특징
-
-### 🔐 보안 및 데이터 격리
-- **사용자별 데이터 격리**: 각 사용자의 보험 데이터가 완전히 분리됨
-- **벡터스토어 독립성**: `faiss_db/user_{user_id}_{insurance_type}` 구조
-- **SQLite 관계형 데이터**: 사용자-보험 외래키 관계로 데이터 무결성 보장
-
-### 🤖 AI 분석 정확도
-- **이중 프롬프트 시스템**: 상세 분석 + 한줄 요약 별도 생성
-- **컨텍스트 최적화**: MMR 알고리즘으로 중복 제거 및 다양성 확보
-
 
 ## 👥 Contributors
 
