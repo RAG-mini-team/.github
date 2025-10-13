@@ -1,7 +1,11 @@
 # CLaiM
 > RAG 기반 보험청구심사 자동화 서비스
+<img width="1656" height="868" alt="image" src="https://github.com/user-attachments/assets/5b96a48b-ff3b-4619-8687-bae51751dcdc" />
 
-보험 약관 PDF를 기반으로 한 RAG(Retrieval-Augmented Generation) 시스템으로, 사용자의 보험 청구 정보에 대해 유사한 약관을 검색하고 심사 의견을 제공합니다.
+
+"CLaiM"은 **RAG(Retrieval-Augmented Generation) 기반 청구심사 자동화 서비스**로, 
+사용자의 보험 청구 정보에 대해 저장된 **유사한 약관을 검색하고 분석**하여 심사 의견을 제공합니다.
+</br></br>
 
 ## 주요 특징
 
@@ -12,15 +16,23 @@
 ### 🤖 AI 기반 심사 요약 
 - **한줄 요약**: "심사 통과 확률 높음/보통/낮음" 형태로 즉시 확인 가능
 - **LLM 분석**: OpenAI/Qwen 모델을 통한 지능적인 승인 가능성 판단
+</br></br>
 
+## UX/UI
+<img width="6392" height="4928" alt="image" src="https://github.com/user-attachments/assets/4a40d50b-bb2d-4b8d-8f33-143e8e02ff7f" />
+</br></br>
 
-##  시스템 아키텍처 및 데이터 플로우
+##  Architecture Diagram
+<img width="862" height="484" alt="image" src="https://github.com/user-attachments/assets/e2867bf5-8d94-458d-affe-e2bcadf94fea" />
+</br></br>
 
-<img width="1352" height="492" alt="Image" src="https://github.com/user-attachments/assets/5cfc1d64-e246-46cf-b455-77e1b31c0472" />
+## API Sequence Diagram
+<img width="1423" height="1033" alt="image" src="https://github.com/user-attachments/assets/6fa3c007-ba8e-4a9e-9856-79c0f2d2708a" />
+</br></br>
 
-## UI
-
-<img width="961" height="647" alt="Image" src="https://github.com/user-attachments/assets/ae94e117-7c0c-4bd6-afb4-603bd72f440c" />
+## ERD
+<img width="374" height="205" alt="image" src="https://github.com/user-attachments/assets/3367a724-0b94-4a8c-ae52-83b8632e6238" />
+</br></br>
 
 ## 주요 기능
 
@@ -41,6 +53,7 @@
 - **AI 분석**: GPT-4o / Qwen 1.5 기반 심사 의견 제공
 - **승인 확률**: 높음/보통/낮음으로 간단 요약
 
+</br></br>
 
 ## 기술 스택
 
@@ -54,7 +67,7 @@
 - **Database**: SQLite (사용자/보험 데이터)
 - **PDF Processing**: PyPDF (텍스트 추출 및 정규화)
 - **Dependencies**: uvicorn, requests, python-dotenv
-
+</br></br>
 
 ## 👥 Contributors
 
