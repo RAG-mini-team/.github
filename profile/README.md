@@ -23,7 +23,7 @@
 </br></br>
 
 ##  Architecture Diagram
-<img width="862" height="484" alt="image" src="https://github.com/user-attachments/assets/e2867bf5-8d94-458d-affe-e2bcadf94fea" />
+<img width="1352" height="492" alt="image" src="https://github.com/user-attachments/assets/f989e46c-2a18-44e4-b8bc-7149d0611f54" />
 </br></br>
 
 ## API Sequence Diagram
