@@ -2,8 +2,9 @@
 # CLaiM
 > RAG 기반 보험청구심사 자동화 서비스
 <img width="1656" height="868" alt="image" src="https://github.com/user-attachments/assets/5b96a48b-ff3b-4619-8687-bae51751dcdc" />
+<br/>
 
-
+## 프로젝트 개요
 "CLaiM"은 **RAG(Retrieval-Augmented Generation) 기반 청구심사 자동화 서비스**로, 
 사용자의 보험 청구 정보에 대해 저장된 **유사한 약관을 검색하고 분석**하여 심사 의견을 제공합니다.
 </br></br>
